@@ -64,32 +64,6 @@ export function Footer() {
                   <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
                 </svg>
               </a>
-
-              {/* X (Twitter) */}
-              <a
-                href={COMPANY_INFO.socials.x}
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="X (Twitter)"
-                className="w-8 h-8 rounded-full bg-[#191920] hover:bg-[#252530] border border-[#353440] hover:border-[#D97745] text-[#A6A39C] hover:text-[#F5F1E9] flex items-center justify-center transition-all duration-200"
-              >
-                <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
-                </svg>
-              </a>
-
-              {/* WhatsApp */}
-              <a
-                href={COMPANY_INFO.contacts.whatsappUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="WhatsApp"
-                className="w-8 h-8 rounded-full bg-[#191920] hover:bg-[#252530] border border-[#353440] hover:border-[#D97745] text-[#A6A39C] hover:text-[#25D366] flex items-center justify-center transition-all duration-200"
-              >
-                <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M12.031 2c-5.508 0-9.984 4.475-9.984 9.983 0 1.761.458 3.479 1.328 4.988l-1.411 5.158 5.285-1.385c1.457.795 3.107 1.222 4.782 1.222 5.508 0 9.984-4.475 9.984-9.983 0-5.508-4.476-9.983-9.984-9.983zm0 18.28c-1.503 0-2.981-.403-4.275-1.168l-.307-.182-3.178.833.849-3.099-.2-.317c-.838-1.334-1.282-2.883-1.282-4.464 0-4.567 3.717-8.284 8.284-8.284 4.567 0 8.284 3.717 8.284 8.284 0 4.567-3.717 8.284-8.284 8.284zm4.536-6.195c-.249-.124-1.474-.727-1.703-.81-.229-.083-.396-.124-.562.124-.166.249-.644.81-.789.976-.145.166-.29.187-.539.062-.249-.124-1.052-.388-2.003-1.236-.74-.66-1.24-1.476-1.385-1.725-.145-.249-.015-.383.109-.507.112-.112.249-.29.373-.435.124-.145.166-.249.249-.415.083-.166.041-.311-.021-.435-.062-.124-.562-1.353-.77-1.854-.203-.488-.41-.422-.562-.43-.145-.008-.311-.01-.477-.01s-.435.062-.663.311c-.228.249-.871.851-.871 2.075 0 1.224.892 2.407 1.016 2.573.124.166 1.755 2.68 4.251 3.757.594.256 1.058.409 1.42.524.597.19 1.14.163 1.569.099.479-.071 1.474-.602 1.682-1.183.207-.581.207-1.079.145-1.183-.062-.104-.228-.166-.477-.29z" />
-                </svg>
-              </a>
             </div>
 
             {/* Direct Phone Contact */}
@@ -268,8 +242,8 @@ export function Footer() {
 
             <ul className="space-y-3.5 text-xs sm:text-sm leading-relaxed text-[#8e8b84]">
               <li>
-                <strong className="text-[#F5F1E9] font-semibold">&bull; Headquarters:</strong>{" "}
-                Wardha, India.
+                <strong className="text-[#F5F1E9] font-semibold">&bull; Our Offices:</strong>{" "}
+                Manish Nagar, Nagpur, Maharashtra &amp; Wardha.
               </li>
               <li>
                 <strong className="text-[#F5F1E9] font-semibold">&bull; Markets Served:</strong>{" "}
